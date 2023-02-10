@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome javascript -->
+    <script src="https://kit.fontawesome.com/fd9e81481e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-header">
+            <h2>Time Sheet Calculator</h2>
+        </div>
+        <div class="container-body">
+            <section class="table-head">
+                <input type="text" value="Day" disabled>
+                <input type="text" value="Starting Time" disabled>
+                <input type="text" value="Ending Time" disabled>
+                <input type="text" value="Break Deduction &quest;" disabled>
+                <input type="text" value="Total" disabled>
+            </section>
+            <section class="table-body">
+               <div class="row day1">
+                <input type="text" value="Monday" disabled>
+                <input type="time"  id="start-day1" value="00:00" />
+                <input type="time" id="end-day1" value="00:00" />
+                <input type="text" id="breakh-day1" value="00" style="width: 95px" />:
+                <input type="text" id="breakm-day1" value="00" style="width: 95px"/>
+                <input type="text" id="output-day1" value="00.00">
+               </div>
+                
+               <div class="row day2">
+                <input type="text" value="Tuesday" disabled>
+                <input type="time"  id="start-day2" value="00:00" />
+                <input type="time" id="end-day2" value="00:00" />
+                <input type="text" id="breakh-day2" value="00" style="width: 95px" />:
+                <input type="text" id="breakm-day2" value="00" style="width: 95px"/>
+                <input type="text" id="output-day2" value="00.00">
+               </div>
+               <div class="row day3">
+                <input type="text" value="Wednesday" disabled>
+                <input type="time"  id="start-day3" value="00:00" />
+                <input type="time" id="end-day3" value="00:00" />
+                <input type="text" id="breakh-day3" value="00" style="width: 95px" />:
+                <input type="text" id="breakm-day3" value="00" style="width: 95px"/>
+                <input type="text" id="output-day3" value="00.00">
+               </div>
+               <div class="row day4">
+                <input type="text" value="Thrusday" disabled>
+                <input type="time"  id="start-day4" value="00:00" />
+                <input type="time" id="end-day4" value="00:00" />
+                <input type="text" id="breakh-day4" value="00" style="width: 95px" />:
+                <input type="text" id="breakm-day4" value="00" style="width: 95px"/>
+                <input type="text" id="output-day4" value="00.00">
+               </div>
+               <div class="row day5">
+                <input type="text" value="Friday" disabled>
+                <input type="time"  id="start-day5" value="00:00" />
+                <input type="time" id="end-day5" value="00:00" />
+                <input type="text" id="breakh-day5" value="00" style="width: 95px" />:
+                <input type="text" id="breakm-day5" value="00" style="width: 95px"/>
+                <input type="text" id="output-day5" value="00.00">
+               </div>
+               <div class="row day6">
+                <input type="text" value="Saturday" disabled>
+                <input type="time"  id="start-day6" value="00:00" />
+                <input type="time" id="end-day6" value="00:00" />
+                <input type="text" id="breakh-day6" value="00" style="width: 95px" />:
+                <input type="text" id="breakm-day6" value="00" style="width: 95px"/>
+                <input type="text" id="output-day6" value="00.00">
+               </div>
+               <div class="row day7">
+                <input type="text" value="Sunday" disabled>
+                <input type="time"  id="start-day7" value="00:00" />
+                <input type="time" id="end-day7" value="00:00" />
+                <input type="text" id="breakh-day7" value="00" style="width: 95px" />:
+                <input type="text" id="breakm-day7" value="00" style="width: 95px"/>
+                <input type="text" id="output-day7" value="00.00">
+               </div>
+               <div class="table-output flex">
+                <div class="company-logo">
+                    <p>codebeautify</p>
+                </div>
+                <div id="final-output">
+                    Total Hours:<span id="result">00.00</span>
+                </div>
+               </div>
+            </section>
+            <section class="table-footer flex">
+                <div class="btn" onclick="calculateTime()">
+                    <i class="fa-solid fa-calculator" style="padding-right:10px;"></i>CALCULATE
+                </div>
+                <div class="btn" onclick="clearAll()">
+                    <i class="fa-solid fa-x" style="padding-right:10px;"></i>CLEAR ALL
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
