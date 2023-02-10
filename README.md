@@ -9,6 +9,9 @@ The web application will calculate the amount of worked hours, then subtracting 
 You can calculate amount of hours worked for a single day or for whole week.
 
 
+## Screenshots: 
+
+
 ## Resources:
 ### Fontawesome Js for Icons.
 <script src="https://kit.fontawesome.com/fd9e81481e.js" crossorigin="anonymous"></script>
