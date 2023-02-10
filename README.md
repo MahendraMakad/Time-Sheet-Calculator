@@ -10,7 +10,9 @@ You can calculate amount of hours worked for a single day or for whole week.
 
 
 ## Screenshots: 
+<img width="805" alt="a1" src="https://user-images.githubusercontent.com/87107054/217987669-3776698c-0d8e-425b-b094-3a02c4554951.png">
 
+<img width="811" alt="a2" src="https://user-images.githubusercontent.com/87107054/217987693-f0b803d4-876b-4424-a79a-454072b8b0dd.png">
 
 ## Resources:
 ### Fontawesome Js for Icons.
