@@ -5,103 +5,627 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time calculator</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- fontawesome javascript -->
-    <script src="https://kit.fontawesome.com/fd9e81481e.js" crossorigin="anonymous"></script>
+    <title>git projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="container-header">
-            <h2>Time Sheet Calculator</h2>
-        </div>
-        <div class="container-body">
-            <section class="table-head">
-                <input type="text" value="Day" disabled>
-                <input type="text" value="Starting Time" disabled>
-                <input type="text" value="Ending Time" disabled>
-                <input type="text" value="Break Deduction &quest;" disabled>
-                <input type="text" value="Total" disabled>
-            </section>
-            <section class="table-body">
-               <div class="row day1">
-                <input type="text" value="Monday" disabled>
-                <input type="time"  id="start-day1" value="00:00" />
-                <input type="time" id="end-day1" value="00:00" />
-                <input type="text" id="breakh-day1" value="00" style="width: 95px" />:
-                <input type="text" id="breakm-day1" value="00" style="width: 95px"/>
-                <input type="text" id="output-day1" value="00.00">
-               </div>
-                
-               <div class="row day2">
-                <input type="text" value="Tuesday" disabled>
-                <input type="time"  id="start-day2" value="00:00" />
-                <input type="time" id="end-day2" value="00:00" />
-                <input type="text" id="breakh-day2" value="00" style="width: 95px" />:
-                <input type="text" id="breakm-day2" value="00" style="width: 95px"/>
-                <input type="text" id="output-day2" value="00.00">
-               </div>
-               <div class="row day3">
-                <input type="text" value="Wednesday" disabled>
-                <input type="time"  id="start-day3" value="00:00" />
-                <input type="time" id="end-day3" value="00:00" />
-                <input type="text" id="breakh-day3" value="00" style="width: 95px" />:
-                <input type="text" id="breakm-day3" value="00" style="width: 95px"/>
-                <input type="text" id="output-day3" value="00.00">
-               </div>
-               <div class="row day4">
-                <input type="text" value="Thrusday" disabled>
-                <input type="time"  id="start-day4" value="00:00" />
-                <input type="time" id="end-day4" value="00:00" />
-                <input type="text" id="breakh-day4" value="00" style="width: 95px" />:
-                <input type="text" id="breakm-day4" value="00" style="width: 95px"/>
-                <input type="text" id="output-day4" value="00.00">
-               </div>
-               <div class="row day5">
-                <input type="text" value="Friday" disabled>
-                <input type="time"  id="start-day5" value="00:00" />
-                <input type="time" id="end-day5" value="00:00" />
-                <input type="text" id="breakh-day5" value="00" style="width: 95px" />:
-                <input type="text" id="breakm-day5" value="00" style="width: 95px"/>
-                <input type="text" id="output-day5" value="00.00">
-               </div>
-               <div class="row day6">
-                <input type="text" value="Saturday" disabled>
-                <input type="time"  id="start-day6" value="00:00" />
-                <input type="time" id="end-day6" value="00:00" />
-                <input type="text" id="breakh-day6" value="00" style="width: 95px" />:
-                <input type="text" id="breakm-day6" value="00" style="width: 95px"/>
-                <input type="text" id="output-day6" value="00.00">
-               </div>
-               <div class="row day7">
-                <input type="text" value="Sunday" disabled>
-                <input type="time"  id="start-day7" value="00:00" />
-                <input type="time" id="end-day7" value="00:00" />
-                <input type="text" id="breakh-day7" value="00" style="width: 95px" />:
-                <input type="text" id="breakm-day7" value="00" style="width: 95px"/>
-                <input type="text" id="output-day7" value="00.00">
-               </div>
-               <div class="table-output flex">
-                <div class="company-logo">
-                    <p>codebeautify</p>
+    <div class="container is-fluid">
+        <section class="hero is-fullheight-with-navbar">
+            <div class="hero-body">
+                <div class="container is-fluid">
+                    <main>
+                        <h1 style="margin-bottom: 20px"> Name: Mahendra Makad </h1>
+                        <!-- 15/02/2023 -->
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 15/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Github page for Task Tracking</td>
+                                            <td><a href="https://mahendramakad.github.io/Daily-Work-Progress/">Page
+                                                    Link</a></td>
+                                            <td>40 min</td>
+
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Learning Json with Javascript</td>
+                                            <td>Code with Harry & W3 School</td>
+                                            <td>2 hours</td>
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>3.</td>
+                                            <td>Started JS DOM Manipulation</td>
+                                            <td>Code with Harry & W3 School</td>
+                                            <td>30 min</td>
+                                        </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">3 Hr 10 min</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 16/02/2003 -->
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 16/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Completed JS DOM</td>
+                                            <td>W3 School and CodeWithHarry</td>
+                                            <td>2 hours</td>
+
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Completed CSS Bulma</td>
+                                            <td>Bulma Documentation and Youtube</td>
+                                            <td>1.5 hours</td>
+                                        </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">3 Hr 30 min</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 17/02/2003 -->
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 17/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Built layout of Instagram filter Page</td>
+                                            <td></td>
+                                            <td>2.5 hours</td>
+
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Read about how to apply instagram filter on images</td>
+                                            <td>Youtube and StackOverflow</td>
+                                            <td>2 hours</td>
+                                        </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">4 Hr 30 min</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- 20/02/2023 -->
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 20/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Implemented instagram filters on an image using
+                                                cssgram library.
+                                            </td>
+                                            <td></td>
+                                            <td>4 hours</td>
+
+                                        </tr>
+
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">4 Hr </th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- 21/02/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 21/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Read about Canvas</td>
+                                            <td>Youtube</td>
+                                            <td>1 hours</td>
+
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Tried to add download button</td>
+                                            <td></td>
+                                            <td>2 Hr 30 min</td>
+                                        </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">3 Hr 30 min</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- 22/02/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 22/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Read about adding reset button and download button</td>
+                                            <td>Youtube & Web</td>
+                                            <td>2 hours</td>
+
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Added reset button</td>
+                                            <td></td>
+                                            <td>2 Hr 30 min</td>
+                                        </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">4 Hr 30 min</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 23/02/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 23/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Tried to add download button but it was giving some bugs</td>
+                                            <td></td>
+                                            <td>3 hours</td>
+
+                                        </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">3 Hr</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 24/02/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 24/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Worked on styling of page</td>
+                                            <td></td>
+                                            <td>2 hours</td>
+
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Uploaded on github</td>
+                                            <td></td>
+                                            <td>10 min</td>
+                                        </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">2 Hr 10 min</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 27/02/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 27/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Build basic layout for image sensor</td>
+                                            <td></td>
+                                            <td>2 hours</td>
+
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Read about canvas</td>
+                                            <td></td>
+                                            <td>1 Hr 30 min</td>
+                                        </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">3 Hr 30 min</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 28/02/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 28/02/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Added input for file and simpulatanous upload on image and canvas for
+                                                image sensor</td>
+                                            <td>Youtube && W3</td>
+                                            <td>3 hours</td>
+
+                                        </tr>
+
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">3 Hr </th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 1/03/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 1/03/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Rest due to problem in eyes</td>
+                                            <td>-----</td>
+                                            <td>-----</td>
+                                        </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">-----</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 2/03/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 2/03/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Read about how to select rectangle area on an image</td>
+                                            <td><a
+                                                    href="https://stackoverflow.com/questions/20538876/imgareaselect-in-jquery">links</a>
+                                            </td>
+                                            <td>2 Hr</td>
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Read about pixelation and how to do it on client side using canvas</td>
+                                            <td><a
+                                                    href="https://img.ly/blog/how-to-pixelate-an-image-in-javascript/">links</a>
+                                            </td>
+                                            <td>1 Hr 40 min</td>
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>3.</td>
+                                            <td>Implemented the functionality of loading image and canvas</td>
+                                            <td></td>
+                                            <td>1 Hr  </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">4 Hr 40 min </th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 3/03/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 3/03/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Implemented the pixelation</td>
+                                            <td></td>
+                                            <td>1 Hr 30 min</td>
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Implemented the blur</td>
+                                            <td></td>
+                                            <td>1 Hr</td>
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>3.</td>
+                                            <td>Implemented the color</td>
+                                            <td></td>
+                                            <td>1 Hr</td>
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>4.</td>
+                                            <td>Uploaded on github and tested</td>
+                                            <td></td>
+                                            <td>30 min</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">4 Hr </th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- 6/03/2023 -->
+
+                        <div class="box">
+                            <div class="block">
+                                <h1 class="title is-size-2">Date :- 6/03/2023</h1>
+                            </div>
+                            <div class="table-container">
+                                <table class="table  is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Task</th>
+                                            <th>Useful Link</th>
+                                            <th>Spent Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>1.</td>
+                                            <td>Read about how to maintain image quality while resizing it</td>
+                                            <td></td>
+                                            <td>3 Hr</td>
+                                        </tr>
+                                        <tr class="has-text-weight-semibold">
+                                            <td>2.</td>
+                                            <td>Tried hit and trials on images for their quality</td>
+                                            <td></td>
+                                            <td>1 Hr </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th class="is-size-4">4 Hr </th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
                 </div>
-                <div id="final-output">
-                    Total Hours:<span id="result">00.00</span>
-                </div>
-               </div>
-            </section>
-            <section class="table-footer flex">
-                <div class="btn" onclick="calculateTime()">
-                    <i class="fa-solid fa-calculator" style="padding-right:10px;"></i>CALCULATE
-                </div>
-                <div class="btn" onclick="clearAll()">
-                    <i class="fa-solid fa-x" style="padding-right:10px;"></i>CLEAR ALL
-                </div>
-            </section>
-        </div>
+            </div>
+
+        </section>
     </div>
-    <script src="script.js"></script>
 </body>
 
 </html>
